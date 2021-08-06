@@ -10,6 +10,15 @@ class Date:
         self.day = day
         self.weekday = weekday
 
+    # --------------New code
+        self.holyday = None
+
+    def holyday(self, text):
+        # The parameter 'text' is the name of a Holyday.
+        pass
+
+    # ----------End of new Code
+
     def yearMonthDay(self):
         if self.month < 10:
             self.month = '0' + str(self.month)
